@@ -1,0 +1,22 @@
+# Ignore raw, interim data, and any large files:
+data/raw/
+data/interim/
+*.csv
+*.tsv
+*.zip
+*.npy
+*.pkl
+*.bin
+*.json
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local virtualenv
+.venv/
+.env/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
